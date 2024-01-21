@@ -72,6 +72,8 @@ export const deletePost = async (id:string)=> {
 
 }
 
+//aggiornamento post
+
 export const updatePost = async (id:string, updatedData:{ titolo:string, autore:string,testo:string})=>{
 
 try {
